@@ -1,11 +1,9 @@
 """Ask the agent one question.
-
     python ask.py "What was the hottest day in September?"
 """
 import sys
 
 from agent import Budget, run_agent
-
 
 def main():
     question = " ".join(sys.argv[1:]) or \
